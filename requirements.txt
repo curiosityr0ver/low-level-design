@@ -29,3 +29,7 @@ Future Enhancements
     -allow users to book rides that connect with public transport
 -Enhanced Driver Features
     -provide drivers with navigation assistance
+-User Feedback System
+    -allow users to rate drivers and provide feedback
+In-app Chat
+    -allow riders and drivers to communicate within the app
