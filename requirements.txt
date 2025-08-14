@@ -58,3 +58,7 @@ Rest API
             -rideId: string (ride ID)
             -driverId: string (driver ID)
         -output: updated ride details (status, driver location)
+
+
+Long Polling
+    
