@@ -15,3 +15,10 @@ Functional Requirements
 Non Functional Requirements
 -Scalability
     -system should handle 100m+ concurrent users
+-Performance
+    -system should respond to ride requests in under 2 seconds
+-Reliability
+    -system should have 99.9% uptime
+-Data Security
+    -user data should be encrypted
+    -payment information should be securely stored
