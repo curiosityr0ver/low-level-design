@@ -44,3 +44,10 @@ Rest API
             -source: string (latitude,longitude)
             -destination: string (latitude,longitude)
         -output: fare estimate
+    
+    2. POST /api/rides/request
+        -description: Request a ride after fare estimation
+        -params:
+            -pickup_location: string (latitude,longitude)
+            -destination_location: string (latitude,longitude)
+        -output: ride details (ride ID, driver ID, estimated time of arrival)
