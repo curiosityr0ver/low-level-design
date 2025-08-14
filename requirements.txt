@@ -27,3 +27,5 @@ Non Functional Requirements
 Future Enhancements
 -Integration with public transport
     -allow users to book rides that connect with public transport
+-Enhanced Driver Features
+    -provide drivers with navigation assistance
