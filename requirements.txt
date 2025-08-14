@@ -33,3 +33,14 @@ Future Enhancements
     -allow users to rate drivers and provide feedback
 In-app Chat
     -allow riders and drivers to communicate within the app
+
+
+API Design
+
+Rest API
+    1. POST /api/fares/estimate
+        -description: Estimate fare for a ride based on source and destination
+        -params:
+            -source: string (latitude,longitude)
+            -destination: string (latitude,longitude)
+        -output: fare estimate
