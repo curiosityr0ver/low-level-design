@@ -16,7 +16,7 @@ Non Functional Requirements
 -Scalability
     -system should handle 100m+ concurrent users
 -Performance
-    -system should respond to ride requests in under 2 seconds
+    -latency should respond to ride requests in under 2 seconds
 -Reliability
     -system should have 99.9% uptime
 -Data Security
