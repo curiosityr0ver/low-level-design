@@ -4,4 +4,14 @@ Functional Requirements
     -output ride details (nearby drivers ,estimated time of arrival, fare estimate)
 -Ride Matching
     -match rider with driver
--Driver Matching
+-Driver Tracking
+    -track driver location in real-time
+-Push Notifications
+    -notify rider when driver is nearby
+    -notify driver when ride is requested
+    -notify rider when ride is completed
+
+
+Non Functional Requirements
+-Scalability
+    -system should handle 100m+ concurrent users
