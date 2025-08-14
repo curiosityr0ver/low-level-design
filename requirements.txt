@@ -1,0 +1,7 @@
+Functional Requirements
+-Request ride
+    -input source and destination
+    -output ride details (nearby drivers ,estimated time of arrival, fare estimate)
+-Ride Matching
+    -match rider with driver
+-Driver Matching
