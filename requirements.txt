@@ -22,3 +22,8 @@ Non Functional Requirements
 -Data Security
     -user data should be encrypted
     -payment information should be securely stored
+
+
+Future Enhancements
+-Integration with public transport
+    -allow users to book rides that connect with public transport
