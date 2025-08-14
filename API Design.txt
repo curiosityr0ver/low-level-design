@@ -1,0 +1,24 @@
+API Design
+
+Rest API
+    1. POST /api/fares/estimate
+        -description: Estimate fare for a ride based on source and destination
+        -params:
+            -pickup_location: (lat,long)
+            -destination_location: (lat,long)
+        -output: fare estimate
+    
+    2. POST /api/rides/request
+        -description: Request a ride after fare estimation
+        -params:
+            -pickup_location: (lat,long)
+            -destination_location: (lat,long)
+        -output: ride details (ride_id, driver_id, ETA)
+
+    3. PUT /api/rides/{rideId}/accept
+        -description: Driver accepts a ride request
+        -params:
+            -ride_id: 
+            -driver_id:
+        -output: updated ride details (status, driver location)
+
