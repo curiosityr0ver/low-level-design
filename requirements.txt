@@ -51,3 +51,10 @@ Rest API
             -pickup_location: string (latitude,longitude)
             -destination_location: string (latitude,longitude)
         -output: ride details (ride ID, driver ID, estimated time of arrival)
+
+    3. PUT /api/rides/{rideId}/accept
+        -description: Driver accepts a ride request
+        -params:
+            -rideId: string (ride ID)
+            -driverId: string (driver ID)
+        -output: updated ride details (status, driver location)
